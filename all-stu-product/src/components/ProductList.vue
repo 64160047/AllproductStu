@@ -26,7 +26,7 @@ const products = [
 /* ✅ ทำให้ติดกับ HeroSection ไม่มีช่องว่าง */
 .product-list {
   width: 100vw;
-  min-height: 80vh;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #e0e7ff, #ffffff);
   text-align: center;
   padding: 40px 5%;
@@ -44,7 +44,7 @@ const products = [
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 /* ✅ การ์ดสินค้า */
